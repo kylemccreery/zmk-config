@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
+    - name: kylezmk
       url-base: https://github.com/kylemccreery
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: kylezmk
+      revision: s40nc
       import: app/west.yml
   self:
     path: config
